@@ -51,6 +51,8 @@ inputImage.addEventListener("change", () => {
         ctx.strokeStyle = "blue";
         // Couleur texte
         ctx.fillStyle = "red";
+        // La taille et type de typomo--logie
+        ctx.font = "40px serif";
         // On trace le contour
         ctx.stroke();
 
